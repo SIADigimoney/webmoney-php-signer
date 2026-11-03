@@ -1,0 +1,14 @@
+{
+  "name": "webmoney/signer",
+  "description": "WebMoney v2 (Ed25519) message signing from a base64 .kwm file, WMID and password.",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.4",
+    "ext-sodium": "*",
+    "ext-intl": "*"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
